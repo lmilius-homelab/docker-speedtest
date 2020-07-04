@@ -1,0 +1,11 @@
+---
+kind: pipeline
+name: speedtest
+type: docker
+
+steps:
+- name: Build
+  image: plugins/docker
+  settings:
+    repo: registry.lukemilius.com/speedtest
+    auto_tag: true

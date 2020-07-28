@@ -1,4 +1,3 @@
-FROM barrycarey/speedtest-for-influxdb-and-grafana
-MAINTAINER lmilius12@gmail.com
+FROM atribe/speedtest-for-influxdb-and-grafana
 
 COPY config.ini /src/config.ini

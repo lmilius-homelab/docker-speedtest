@@ -6,7 +6,6 @@ type: docker
 steps:
 - name: Build
   image: plugins/docker
-  custom_dns: [ 10.10.200.5, 10.10.200.1 ]
   settings:
     repo: registry.lukemilius.com/speedtest
     registry: registry.lukemilius.com
